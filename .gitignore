@@ -115,3 +115,4 @@ ENV/
 /datasets
 /models
 /runs
+.vscode
