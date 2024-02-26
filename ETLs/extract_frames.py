@@ -48,9 +48,8 @@ def get_random_frames(
         output_path:str,
         source_name:str
 ) -> None:
-    '''Return a list of n random frames using the calculate_sample_size method
+    '''Returns a list of n random frames using the calculate_sample_size method
 
-    
     Args:
         input_path (str): path string object to the video input
         output_paht (str): path string object to the output folder in which to
