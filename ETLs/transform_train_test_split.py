@@ -24,7 +24,7 @@ def train_test_split(path_img:Path, path_labels:Path, train_size:float) -> None:
     imgs = [file for file in path_img.rglob('*') if file.is_file()]
     labels = [label for label in path_labels.rglob('*.txt') if label.is_file()]
     
-    # sorting the sets
+    # sorting the lists
     imgs.sort(), labels.sort()
 
     # semi-randomly selecting train data
