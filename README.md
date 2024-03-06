@@ -1,5 +1,5 @@
 # Price tag detection for computer vision applications
-#### This is a case study/usage example repo of YOLOV8 for object detection/tracking, where the subject is the detection of price tags in a supermarket from Brazil.
+#### This is a repository containing a case study and usage examples of YOLOv8 for object detection and tracking. The focus of the study is on the detection of price tags in Brazilian supermarkets. Please note that we have provided a very small sample dataset here for illustrative purposes. It is not recommended to keep data in the same Git remote storage. Instead, consider using solutions like [dvc](https://dvc.org/), [mlflow](https://mlflow.org/), or equivalent for this purpose.
 
 ## Result:
 [![Watch the video](https://img.youtube.com/vi/2v53LYak8-4/maxresdefault.jpg)](https://youtu.be/2v53LYak8-4)
