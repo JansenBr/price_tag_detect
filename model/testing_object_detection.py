@@ -29,6 +29,7 @@ def save_testing_video():
     )
     return
 
+
 # using supervision
 def process_frame(frame: np.ndarray) -> np.ndarray:
     '''Process a frame of an input video or image and draws the boxes around the
