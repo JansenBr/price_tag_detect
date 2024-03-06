@@ -1,42 +1,16 @@
-Ultralitics YOLO Object Detection Showcase
+# Price tag detection for computer vision applications
+#### This is a case study/usage example repo of YOLOV8 for object detection/tracking, where the subject is the detection of price tags in a supermarket from Brazil.
 
-https://youtu.be/2v53LYak8-4
+## Result:
 [![Watch the video](https://img.youtube.com/vi/2v53LYak8-4/maxresdefault.jpg)](https://youtu.be/2v53LYak8-4)
-Welcome to the Ultralitics YOLO Object Detection repository! Here, we demonstrate the powerful capabilities of Ultralitics YOLO for object detection tasks.
-Overview
 
-This repository serves as a case study focusing on the detection of price tags within a Brazilian supermarket environment. By leveraging Ultralitics YOLO, we showcase its effectiveness in identifying and localizing price tags accurately.
-Key Features
+The code contains usefull methods to manipulate image data, from raw processing to model training and testing the main steps are covered.
+Data was annotated using [label-studio](https://labelstud.io/), the exported format used was YOLO and the `transform_train_test_split` script will format the data according to YOLOV8 and also perform a train/test split.
 
-    Ultralitics YOLO Integration: Explore the seamless integration of Ultralitics YOLO for precise object detection.
+# Reach out to me for a live price scanning monitoring app.
 
-    Customization: This project is highly customizable, allowing adaptation to diverse object detection tasks beyond price tag identification.
+# Contributing
+We welcome contributions from the community to enhance the functionality and usability of this repository. Feel free to submit issues, feature requests, or pull requests to help improve this repo!
 
-    Dataset Availability: The dataset utilized for training the model showcased in our video demonstration is available upon reasonable request.
-
-Getting Started
-
-To get started with Ultralitics YOLO Object Detection, follow these steps:
-
-    Clone the Repository: Clone this repository to your local machine.
-
-    Installation: Follow the installation instructions provided in the documentation to set up Ultralitics YOLO.
-
-    Customization: Tailor the project to your specific requirements by modifying configurations, datasets, and model parameters.
-
-    Training: Train the model using your dataset or the provided dataset for price tag detection.
-
-    Evaluation: Evaluate the performance of the trained model on test data to ensure accuracy and reliability.
-
-    Deployment: Deploy the model for real-world object detection tasks, adapting it to your desired applications.
-
-Contributing
-
-We welcome contributions from the community to enhance the functionality and usability of this repository. Feel free to submit issues, feature requests, or pull requests to help improve Ultralitics YOLO Object Detection.
-Support
-
-
-
-Acknowledgments
-
+# Acknowledgments
 We would like to acknowledge the contributions of the Ultralitics team and the open-source community for their efforts in developing and maintaining Ultralitics YOLO.
