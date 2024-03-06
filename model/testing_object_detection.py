@@ -5,10 +5,32 @@ import supervision as sv
 from ultralytics import YOLO
 
 
-VIDEO_PATH = "<path_to_your_local_test_video>"
-model = YOLO("<path_to_your_local_trainned_model>")
+VIDEO_PATH = '<path_to_your_local_test_video>'
+model = YOLO('<path_to_your_local_trainned_model>')
 
 
+# simpler way
+def save_testing_video():
+    '''Example of how to use the YOLO.track() method
+
+    Just an example on how to use the track method to display the result, and
+    save the prections to a file. Note that you can choose which labels will be
+    displayed in the output, by using the classes argument.
+    '''
+
+    model.track(
+        source=VIDEO_PATH,
+        show=True,
+        save=True,
+        classes=[0], # indexes of the trainned classes you want to track
+        project='<path_to_save_the_video_output>',
+        name='<folder_name>',
+        exists_ok=True
+    )
+    return
+
+
+# using supervision
 def process_frame(frame: np.ndarray) -> np.ndarray:
     '''Process a frame of an input video or image and draws the boxes around the
     detected objects.
@@ -38,11 +60,12 @@ def process_frame(frame: np.ndarray) -> np.ndarray:
 
 
 def main():
-    sv.process_video(
-        source_path=VIDEO_PATH,
-        target_path="<path_to_save_the_test_video>",
-        callback=process_frame
-    )
+    save_testing_video()
+    # sv.process_video(
+    #     source_path=VIDEO_PATH,
+    #     target_path="<path_to_save_the_test_video>",
+    #     callback=process_frame
+    # )
 
 
 if __name__=="__main__":
