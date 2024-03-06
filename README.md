@@ -1,5 +1,7 @@
 Ultralitics YOLO Object Detection Showcase
 
+https://youtu.be/2v53LYak8-4
+[![Watch the video](https://img.youtube.com/vi/2v53LYak8-4/maxresdefault.jpg)](https://youtu.be/2v53LYak8-4)
 Welcome to the Ultralitics YOLO Object Detection repository! Here, we demonstrate the powerful capabilities of Ultralitics YOLO for object detection tasks.
 Overview
 
